@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual C++ Express 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Antihack", "Antihack\Antihack.vcproj", "{882DF0C4-53FD-46B8-8122-CDC727B80FC5}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Loader", "Loader\Loader.vcproj", "{671FAAF5-B240-492A-A7F4-E0AFC6D18353}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{882DF0C4-53FD-46B8-8122-CDC727B80FC5}.Debug|Win32.ActiveCfg = Debug|Win32
+		{882DF0C4-53FD-46B8-8122-CDC727B80FC5}.Debug|Win32.Build.0 = Debug|Win32
+		{882DF0C4-53FD-46B8-8122-CDC727B80FC5}.Release|Win32.ActiveCfg = Release|Win32
+		{882DF0C4-53FD-46B8-8122-CDC727B80FC5}.Release|Win32.Build.0 = Release|Win32
+		{671FAAF5-B240-492A-A7F4-E0AFC6D18353}.Debug|Win32.ActiveCfg = Debug|Win32
+		{671FAAF5-B240-492A-A7F4-E0AFC6D18353}.Debug|Win32.Build.0 = Debug|Win32
+		{671FAAF5-B240-492A-A7F4-E0AFC6D18353}.Release|Win32.ActiveCfg = Release|Win32
+		{671FAAF5-B240-492A-A7F4-E0AFC6D18353}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
