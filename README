@@ -1,0 +1,25 @@
+Introduction:
+
+This is the client-side antihack project for use with Twilight Gaming's pvpgn server. It is still very much WORK-IN-PROGRESS.
+The meat and potatoes of the antihack is a dll that gets injected into the warcraft process.
+
+Current features:
+
+- DirectX overlay (Can be extended to support a full twilight gui)
+- Taking of in-game screenshots
+- MD5 hash of code section of various critical modules
+- Scanning of loaded modules
+- Interception of new modules loading so they can be checked
+- Server communication ie reporting of violations / proof that its running etc
+- Module enumeration
+- Thread enumeration
+
+To do:
+
+- Fix the multi-threading. It mostly works but sometimes causes deadlocks or weird behaviour.
+- Add more anti-anti-hack / security code
+- Make sure that false-positives DO NOT occur
+- Get file-sending to work (screenshots etc)
+- Get packets back from server without disconnecting from bnet
+- Better quality screenies
+- Check for portability etc
