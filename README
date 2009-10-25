@@ -23,3 +23,23 @@ To do:
 - Get packets back from server without disconnecting from bnet
 - Better quality screenies
 - Check for portability etc
+
+How to compile:
+
+There are 2 major libraries that you will need to compile this source.
+
+DirectX 8 SDK
+	I have done all development so far using the Croteam Serious Sam SDK. This includes all necessary headers
+	and library files. You can download the library here:
+	http://files.seriouszone.com/download.php?fileid=759
+
+MS Detours 1.5
+	I used (to be exact) Version 1.5 (build 46) of Microsoft Research's detours library. This is an old version,
+	and I might upload it in future in case it gets lost in the wilds of the internet.
+
+This was successfuly compiled under Microsoft Visual C++ 2008 Express Edition. Build options set are:
+	Build: Release
+	Character set: Not set (ie not a unicode project)
+	Runtime library: Multithreaded (/MT)
+	Linked against libraries d3d8.lib, d3dx8.lib, detours.lib (there are #pragma's for this, but if you want
+	to test it on another compiler you will have to set this yourself)
